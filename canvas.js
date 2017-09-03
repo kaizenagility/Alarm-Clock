@@ -321,6 +321,7 @@ function alarmClear() {
 	document.getElementById('alarm_minutes').disabled = false;
 	document.getElementById('am_pm').disabled = false;
 	sound.pause();
+	document.getElementById('rooster_image').style.display = "none";
 }
 
 // ---------- Compare Alarm and Current Time ---------- //
