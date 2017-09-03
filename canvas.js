@@ -332,5 +332,6 @@ setInterval(function() {
 	if (alarmTime == currentTime.textContent) {
 		// console.log("Is this damn thing working?")
 		sound.play();
+		document.getElementById('rooster_image').style.display = "block";
 	}
 }, 1000);

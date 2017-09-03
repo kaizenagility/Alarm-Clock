@@ -16,6 +16,10 @@ h2 {
 	text-transform: capitalize;
 }
 
+#rooster_image {
+	display: none;
+}
+
 #alarm_container {
     font-family: Courier;
     font-size: 1em;
@@ -40,7 +44,6 @@ h2 {
 #instruction {
 	color: black;
 	text-transform: uppercase;
-	font-weight: bold;
 	font-size: 20px;
 	margin-top: -20px;
 }
@@ -65,8 +68,9 @@ label {
 	color: #ee7600;
 	font-size: 24px;
 	border-radius: 15px;
-	padding: 5px;
+	padding: 15px;
 	font-family: Courier;
+	font-weight: bolder;
 }
 
 #setAlarm:hover {
@@ -90,9 +94,10 @@ label {
 	color: yellow;
 	font-size: 24px;
 	border-radius: 15px;
-	padding: 5px;
+	padding: 15px;
 	font-family: Courier;
 	display: inline;
+	font-weight: bolder;
 }
 
 #clearAlarm:hover {
