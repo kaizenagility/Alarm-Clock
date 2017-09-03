@@ -1,0 +1,50 @@
+body {
+	background-color: rgb(126, 192, 238);
+}
+
+h1 {
+	font-family: Indie Flower;
+	color: #ee7600;
+	font-size: 3em;
+}
+
+h2 {
+	color: #ee7600;
+}
+
+#alarm_container {
+    font-family: Courier;
+    font-size: 1em;
+    padding: 1em;
+}
+
+.digital_time {
+	display: inline-block;
+	float: left;
+}
+
+#currentTime {
+}
+
+label {
+	display: inline-block;
+}
+
+#alarm_buttons {
+}
+
+#setAlarm {
+	background-color: yellow;
+	color: #ee7600;
+	font-size: 16px;
+	border-radius: 5px;
+	padding: 5px;
+}
+
+#clearAlarm {
+	background-color: #ee7600;
+	color: yellow;
+	font-size: 16px;
+	border-radius: 5px;
+	padding: 5px;
+}

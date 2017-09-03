@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Alarm Clock</title>
+	<link rel = "stylesheet" type="text/css" href="style.css">
+	 <link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet"> 
+</head>
+
+<body>
+
+<!-- This is the face of the analog clock, made on HTML5 Canvas. -->
+
+	<canvas id="canvas" width="400" height="400" style= "background-color: rgba(126, 192, 238, 0.5)">
+	</canvas>
+
+<!-- Alarm Setter: Drop-down Menu -->
+
+	<center>
+	<div id = 'alarm_container'>
+
+		<h1> Set This Alarm: </h1>
+
+		
+		<!-- Digital Clock  -->
+		<div class = "digital_time" >
+			<h2> Current time: </h2>
+			<p id="currentTime"> </p>
+		</div>
+
+
+		<!-- Alarm Setting Options -->
+		<label>
+			<div>
+				<select id='alarm_hours'></select>
+			</div>
+		</label>
+		<label>
+			<div>
+				<select id='alarm_minutes'></select>
+			</div>
+		</label>
+		<label>
+			<div>
+				<select id='am_pm'>
+					<option value="AM">AM</option>
+					<option value="PM">PM</option>
+				</select>
+			</div>
+		</label>
+	</div>
+
+
+<!-- Alarm Setter: Alarm Buttons -->
+
+	<div id = 'alarm_buttons'>
+		<div>
+			<button id='setAlarm' onCLick='alarmSet()'>Set Alarm</button>
+		</div>
+		<div>
+			<button id='clearAlarm' onCLick='alarmClear()'>Clear Alarm</button>
+		</div>
+	</div>
+	</center>
+
+<!-- Rooster Video -->
+
+	<!-- <a href="#openModal" id="rooster">Rooster</a>
+
+	<div id = 'openModal' class="modalDialog">
+		<div>
+		<a href="#close" title="Close" class="close">X</a>
+		</div>
+		<center>
+		<iframe width="560" height="315" src="https://www.youtube.com/embed/ypheoe8OS1w?rel=0?autoplay=1" frameborder="0" allowfullscreen></iframe>
+		</center>
+	</div>
+ -->
+
+	<script src="canvas.js"></script>
+
+</body>
+</html>
