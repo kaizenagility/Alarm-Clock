@@ -29,6 +29,7 @@ h2 {
 .digital_time {
 	display: inline-block;
 	float: left;
+	margin-left: 25px;
 }
 
 #currentTime {
