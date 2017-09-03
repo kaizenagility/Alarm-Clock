@@ -275,7 +275,7 @@ function setMinute(){
 	var select = document.getElementById('alarm_minutes');
 	var minutes = 60;
 
-	for (i=1; i<=minutes; i++) {
+	for (i=0; i<minutes; i++) {
 		select.options[select.options.length] 
 		= new Option(i);
 	}
