@@ -308,7 +308,8 @@ function alarmSet(){
 
 	
 	// console.log(alarmTime);
-
+	document.getElementById('alarmTime').innerHTML = alarmTime;
+	
 	return alarmTime;	
 }
 

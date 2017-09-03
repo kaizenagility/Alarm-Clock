@@ -6,10 +6,14 @@ h1 {
 	font-family: Indie Flower;
 	color: #ee7600;
 	font-size: 3em;
+	text-transform: uppercase;
+	margin-top: -22px;
 }
 
 h2 {
-	color: #ee7600;
+	color: brown;
+	text-decoration: overline;
+	text-transform: capitalize;
 }
 
 #alarm_container {
@@ -24,27 +28,85 @@ h2 {
 }
 
 #currentTime {
+	color: black;
+	font-size: 26px;
+}
+
+#alarmTime {
+	color: red;
+	font-size: 26px;
+}
+
+#instruction {
+	color: black;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 20px;
+	margin-top: -20px;
 }
 
 label {
+	font-weight: bold;
 	display: inline-block;
+	font-size: 20px;
+	background-color: red;
+	padding: 10px 10px 10px 10px;
+	border-radius: 15px;
+	align-content: right;
 }
 
 #alarm_buttons {
+	margin: 15px 100px 15px 100px;
+	float: left;
 }
 
 #setAlarm {
 	background-color: yellow;
 	color: #ee7600;
-	font-size: 16px;
-	border-radius: 5px;
+	font-size: 24px;
+	border-radius: 15px;
 	padding: 5px;
+	font-family: Courier;
+}
+
+#setAlarm:hover {
+	background-color: gold;
+	color: black;
+	padding: 10px;
+	font-size: 32px;
+	transition: 1s;
+}
+
+#setAlarm:active {
+	background-color: gold;
+	color: white;
+	padding: 10px;
+	font-size: 32px;
+	transition: 0.5s;
 }
 
 #clearAlarm {
 	background-color: #ee7600;
 	color: yellow;
-	font-size: 16px;
-	border-radius: 5px;
+	font-size: 24px;
+	border-radius: 15px;
 	padding: 5px;
+	font-family: Courier;
+	display: inline;
+}
+
+#clearAlarm:hover {
+	background-color: red;
+	color: white;
+	padding: 10px;
+	font-size: 32px;
+	transition: 1s;
+}
+
+#clearAlarm:active {
+	background-color: red;
+	color: black;
+	padding: 10px;
+	font-size: 32px;
+	transition: 0.5s;
 }

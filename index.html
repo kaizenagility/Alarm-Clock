@@ -20,6 +20,8 @@
 	<div id = 'alarm_container'>
 
 		<h1> Set This Alarm: </h1>
+		<p id="instruction"> Clear alarm to start. </p>
+		<br>
 
 		
 		<!-- Digital Clock  -->
@@ -30,17 +32,20 @@
 
 
 		<!-- Alarm Setting Options -->
-		<label>
+		<h2> Alarm time: </h2>
+			<p id="alarmTime"> </p>
+
+		<label class = "Drop-down" value="hour">
 			<div>
 				<select id='alarm_hours'></select>
 			</div>
 		</label>
-		<label>
+		<label class = "Drop-down">
 			<div>
 				<select id='alarm_minutes'></select>
 			</div>
 		</label>
-		<label>
+		<label class = "Drop-down">
 			<div>
 				<select id='am_pm'>
 					<option value="AM">AM</option>
@@ -62,20 +67,6 @@
 		</div>
 	</div>
 	</center>
-
-<!-- Rooster Video -->
-
-	<!-- <a href="#openModal" id="rooster">Rooster</a>
-
-	<div id = 'openModal' class="modalDialog">
-		<div>
-		<a href="#close" title="Close" class="close">X</a>
-		</div>
-		<center>
-		<iframe width="560" height="315" src="https://www.youtube.com/embed/ypheoe8OS1w?rel=0?autoplay=1" frameborder="0" allowfullscreen></iframe>
-		</center>
-	</div>
- -->
 
 	<script src="canvas.js"></script>
 
